@@ -9,18 +9,18 @@
 #import "AppDelegate.h"
 #import "Track.h"
 
-@interface AppDelegate ()
-
-@property (weak) IBOutlet NSWindow *window;
-@end
-
 @implementation AppDelegate
+
+@synthesize textField = _textField;
+@synthesize slider = _slider;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application
 	
 	Track *aTrack = [[Track alloc] init];
+	[aTrack setVolume: 5.0];
 	[self setTrack:aTrack];
+	[self updateUserInterface];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

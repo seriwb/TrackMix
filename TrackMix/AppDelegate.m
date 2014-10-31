@@ -23,4 +23,19 @@
 	// Insert code here to tear down your application
 }
 
+- (IBAction)mute:(id)sender {
+	NSLog(@"received a mute: message");
+}
+
+- (IBAction)takeFloatValueForVolumeFrom:(id)sender {
+	NSString *senderName = nil;
+	if (sender == self.textField) {
+		senderName = @"textField";
+	}
+	else {
+		senderName = @"slider";
+	}
+	NSLog(@"%@ sent takeFloatValueForVolumeFrom: with value %1.2f",
+		  senderName, [sender floatValue]);
+}
 @end

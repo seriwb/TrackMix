@@ -35,6 +35,8 @@
 		D2C14AF21A033043002C6568 /* TrackMixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C14AF71A033043002C6568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C14AF81A033043002C6568 /* TrackMixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixTests.m; sourceTree = "<group>"; };
+		D2C14B021A03D535002C6568 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		D2C14B031A03D535002C6568 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,8 @@
 				D2C14AE91A033043002C6568 /* Images.xcassets */,
 				D2C14AEB1A033043002C6568 /* MainMenu.xib */,
 				D2C14AE21A033043002C6568 /* Supporting Files */,
+				D2C14B021A03D535002C6568 /* Track.h */,
+				D2C14B031A03D535002C6568 /* Track.m */,
 			);
 			path = TrackMix;
 			sourceTree = "<group>";
@@ -210,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C14B041A03D535002C6568 /* Track.m in Sources */,
 				D2C14AE81A033043002C6568 /* main.m in Sources */,
 				D2C14AE61A033043002C6568 /* AppDelegate.m in Sources */,
 			);

@@ -12,6 +12,7 @@
 		D2C14AEA1A033043002C6568 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C14AE91A033043002C6568 /* Images.xcassets */; };
 		D2C14AED1A033043002C6568 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2C14AEB1A033043002C6568 /* MainMenu.xib */; };
 		D2C14AF91A033043002C6568 /* TrackMixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C14AF81A033043002C6568 /* TrackMixTests.m */; };
+		D2C14B041A03D535002C6568 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C14B031A03D535002C6568 /* Track.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */

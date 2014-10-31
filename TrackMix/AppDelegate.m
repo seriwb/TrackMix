@@ -27,14 +27,15 @@
 	// Insert code here to tear down your application
 }
 
-- (IBAction)mute:(id)sender {
-	NSLog(@"received a mute: message");
-}
-
 - (void)updateUserInterface {
 	float volume = [self.track volume];
 	[self.textField setFloatValue:volume];
 	[self.slider setFloatValue:volume];
+}
+
+- (IBAction)mute:(id)sender {
+	[self.track setVolume:0.0];
+	[self updateUserInterface];
 }
 
 - (IBAction)takeFloatValueForVolumeFrom:(id)sender {
